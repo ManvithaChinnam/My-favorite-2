@@ -42,3 +42,10 @@ li{
     display:inline;
     float:right;
 }
+
+#mywork{
+    font-family: 'Recursive', sans-serif;
+}
+    html{
+        scroll-behavior: smooth;
+    }
