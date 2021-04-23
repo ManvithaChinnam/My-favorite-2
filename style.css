@@ -2,11 +2,10 @@ body{
   background:linear-gradient(#9400d9 0%, #ffb5e1 100%);
 text-align:center;
 }
-img{
+#painting{
   width=100px;
   height:200px;
   border-radius:50%;
-  : center;
 }
 .line{
   background-color:black;
@@ -49,3 +48,10 @@ li{
     html{
         scroll-behavior: smooth;
     }
+#picture:hover{
+    transform: scale(0.9);
+}
+#picture{
+    transition: transform .2s;
+    border:10px solid white;
+}
