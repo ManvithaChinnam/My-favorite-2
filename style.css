@@ -1,8 +1,8 @@
 body{
   background:linear-gradient(#9400d9 0%, #ffb5e1 100%);
-text-align:center;
+  text-align:center;
 }
-#painting{
+img{
   width=100px;
   height:200px;
   border-radius:50%;
@@ -23,35 +23,26 @@ h1{
   text-align:center;
 }
 }
-.menu{
-    list-style:none;
-    font-family:cursive;
-    top:10px;
-    right:30px;
-    cursor:pointer;
-    color:black;
-}
-h2{
-    font-family: 'Recursive', sans-serif;
-}
-.list:hover{
-    color:black;
-}
-li{
-    display:inline;
+li {
+  display: inline;
     float:right;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-#mywork{
-    font-family: 'Recursive', sans-serif;
+li {
+  float: right;
 }
-    html{
-        scroll-behavior: smooth;
-    }
-#picture:hover{
-    transform: scale(0.9);
-}
-#picture{
-    transition: transform .2s;
-    border:10px solid white;
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
